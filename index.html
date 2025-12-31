@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paseamos tu Mascota - Servicios Premium de Paseo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container nav">
+            <div class="logo">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12,2L4.5,20.29L5.21,21L12,18L18.79,21L19.5,20.29L12,2Z" />
+                </svg>
+                Paseamos tu Mascota
+            </div>
+            <ul class="nav-links">
+                <li><a href="#benefits">Beneficios</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#process">Cómo funciona</a></li>
+                <li><a href="#about">Sobre nosotros</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>Tu amigo fiel merece el <span>mejor paseo</span></h1>
+                    <p>Cuidado profesional, ejercicio y mucha diversión para tus mascotas. Somos expertos en hacer colas
+                        felices.</p>
+                    <button class="btn btn-primary" id="openModal">Inscribir a mi Mascota</button>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/hero_pet_walking.png" alt="Perro y Gato felices">
+                </div>
+            </div>
+        </section>
+
+        <section id="benefits" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>¿Por qué elegirnos?</h2>
+                    <p>Más que un simple paseo, una experiencia de bienestar.</p>
+                </div>
+                <div class="grid benefits-grid">
+                    <div class="card benefit-card">
+                        <div class="icon-container">🛡️</div>
+                        <h3>Seguridad Garantizada</h3>
+                        <p>Reporte fotográfico al comenzar y terminar cada paseo. Siempre sabrás cómo está tu peludo.
+                        </p>
+                    </div>
+                    <div class="card benefit-card">
+                        <div class="icon-container">🐕</div>
+                        <h3>Socialización Positiva</h3>
+                        <p>Grupos pequeños y equilibrados por temperamento. Tu perro hará amigos, no ladridos.</p>
+                    </div>
+                    <div class="card benefit-card">
+                        <div class="icon-container">🎾</div>
+                        <h3>Salud Física y Mental</h3>
+                        <p>No solo caminamos; olfateamos, exploramos y jugamos. Un perro cansado es un perro feliz y
+                            tranquilo en casa.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2>¿Qué ofrecemos?</h2>
+                    <p>No todos los perros son iguales. Ofrecemos variedad.</p>
+                </div>
+                <div class="grid services-grid">
+                    <div class="card service-card" data-service="explorador">
+                        <h3>Paseo Explorador (Grupal)</h3>
+                        <p class="service-meta">60 minutos de aventura con amigos</p>
+                        <p>Ideal para perros sociables con energía media/alta.</p>
+                        <button class="btn-text">Ver precios e info →</button>
+                    </div>
+                    <div class="card service-card highlighted" data-service="vip">
+                        <h3>Paseo VIP (Individual)</h3>
+                        <p class="service-meta">30 o 45 minutos de atención exclusiva</p>
+                        <p>Perfecto para cachorros, perros senior o aquellos que prefieren su propio espacio.</p>
+                        <button class="btn-text">Ver precios e info →</button>
+                    </div>
+                    <div class="card service-card" data-service="visitas">
+                        <h3>Visitas a Domicilio</h3>
+                        <p class="service-meta">Alimentación, juegos y mimos</p>
+                        <p>Sin salir de casa (ideal para gatos o días de lluvia extrema).</p>
+                        <button class="btn-text">Ver precios e info →</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="process" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>¿Cómo funciona?</h2>
+                </div>
+                <div class="process-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h4>Agenda tu cita</h4>
+                        <p>Reserva en línea el horario que más te acomode.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h4>Conocemos a tu mascota</h4>
+                        <p>En la primera visita, evaluamos su comportamiento y necesidades.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h4>¡A pasear!</h4>
+                        <p>Nosotros pasamos por él y tú recibes actualizaciones en tu celular.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section bg-primary-light">
+            <div class="container about-container">
+                <div class="about-content">
+                    <h2>Sobre Nosotros</h2>
+                    <p class="about-lead">Somos amantes de los animales capacitados en primeros auxilios veterinarios y
+                        psicología canina básica.</p>
+                    <p>Entendemos el lenguaje corporal de tu perro para asegurar un paseo libre de estrés. Nuestra
+                        misión es brindar tranquilidad a los dueños y felicidad a sus mascotas.</p>
+                    <div class="trust-badges">
+                        <span>🛡️ Seguridad</span>
+                        <span>❤️ Pasión</span>
+                        <span>🩺 Capacitados</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Contacto</h2>
+                    <p>¿Tienes dudas? Estamos aquí para ayudarte a ti y a tu mascota.</p>
+                </div>
+                <div class="grid contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span class="icon">📍</span>
+                            <div>
+                                <h4>Ubicación</h4>
+                                <p>Ñuñoa, Santiago, Chile</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon">📱</span>
+                            <div>
+                                <h4>Teléfono / WhatsApp</h4>
+                                <p>+56 9 1234 5678</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon">✉️</span>
+                            <div>
+                                <h4>Email</h4>
+                                <p>contacto@paseamostumascota.cl</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon">⏰</span>
+                            <div>
+                                <h4>Horario de Atención</h4>
+                                <p>Lunes a Viernes: 17:00 - 20:00<br>Sábados: 10:00 - 17:00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Tu Nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Tu Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" rows="5" placeholder="Tu Mensaje" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12,2L4.5,20.29L5.21,21L12,18L18.79,21L19.5,20.29L12,2Z" />
+                    </svg>
+                    Paseamos tu Mascota
+                </div>
+                <p>&copy; 2026 Paseamos tu Mascota - Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+            <span class="close-modal" id="closeModal">&times;</span>
+            <h2>Inscribe a tu Mascota</h2>
+            <form id="registrationForm">
+                <div class="form-group">
+                    <label for="ownerName">Nombre del Dueño/a</label>
+                    <input type="text" id="ownerName" name="ownerName" required placeholder="Ej: Juan Pérez">
+                </div>
+                <div class="form-group">
+                    <label for="petName">Nombre de la Mascota</label>
+                    <input type="text" id="petName" name="petName" required placeholder="Ej: Firulais">
+                </div>
+                <div class="form-group">
+                    <label for="petAge">Edad de la Mascota</label>
+                    <input type="number" id="petAge" name="petAge" required placeholder="Ej: 3">
+                </div>
+                <div class="form-group">
+                    <label for="petBreed">Raza de la Mascota</label>
+                    <input type="text" id="petBreed" name="petBreed" required placeholder="Ej: Golden Retriever">
+                </div>
+                <div class="form-group">
+                    <label for="contactPhone">Teléfono de Contacto</label>
+                    <input type="tel" id="contactPhone" name="contactPhone" required placeholder="Ej: +56 9 1234 5678">
+                </div>
+                <div class="form-group">
+                    <label for="contactEmail">Correo de Contacto</label>
+                    <input type="email" id="contactEmail" name="contactEmail" required
+                        placeholder="Ej: juan@ejemplo.com">
+                </div>
+                <div class="form-group">
+                    <label for="petDescription">Descripción de la Mascota</label>
+                    <textarea id="petDescription" name="petDescription" rows="3" required
+                        placeholder="Tranquilo, juguetón, cariñoso..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="petPhoto">Foto de la Mascota</label>
+                    <input type="file" id="petPhoto" name="petPhoto" accept="image/*">
+                </div>
+                <button type="submit" class="submit-btn">Enviar Inscripción</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="serviceModalOverlay">
+        <div class="modal service-modal">
+            <span class="close-modal" id="closeServiceModal">&times;</span>
+            <div id="serviceModalContent">
+                <!-- Content will be injected via JavaScript -->
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" id="bookSmall">Inscribirse ahora</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
