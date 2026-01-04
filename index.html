@@ -21,7 +21,7 @@
                 <li><a href="#benefits">Beneficios</a></li>
                 <li><a href="#services">Servicios</a></li>
                 <li><a href="#process">Cómo funciona</a></li>
-                <li><a href="#about">Sobre nosotros</a></li>
+                <li><a href="#about">Sobre nosotras</a></li>
                 <li><a href="#contact">Contacto</a></li>
             </ul>
         </div>
@@ -32,7 +32,7 @@
             <div class="container hero-content">
                 <div class="hero-text">
                     <h1>Tu amigo fiel merece el <span>mejor paseo</span></h1>
-                    <p>Cuidado profesional, ejercicio y mucha diversión para tus mascotas. Somos expertos en hacer colas
+                    <p>Cuidado amoroso, ejercicio y mucha diversión para tus mascotas. Somos expertas en hacer colas
                         felices.</p>
                     <button class="btn btn-primary" id="openModal">Inscribir a mi Mascota</button>
                 </div>
@@ -78,7 +78,7 @@
                 </div>
                 <div class="grid services-grid">
                     <div class="card service-card" data-service="explorador">
-                        <h3>Paseo Explorador (Grupal)</h3>
+                        <h3>Paseo Explorador</h3>
                         <p class="service-meta">60 minutos de aventura con amigos</p>
                         <p>Ideal para perros sociables con energía media/alta.</p>
                         <button class="btn-text">Ver precios e info →</button>
@@ -107,18 +107,19 @@
                 <div class="process-steps">
                     <div class="step">
                         <div class="step-number">1</div>
-                        <h4>Agenda tu cita</h4>
+                        <h4>Incribe a tu mascota</h4>
                         <p>Reserva en línea el horario que más te acomode.</p>
                     </div>
                     <div class="step">
                         <div class="step-number">2</div>
                         <h4>Conocemos a tu mascota</h4>
-                        <p>En la primera visita, evaluamos su comportamiento y necesidades.</p>
+                        <p>En la primera visita, evaluamos su comportamiento y necesidades (con nuestros papis y mamis).
+                        </p>
                     </div>
                     <div class="step">
                         <div class="step-number">3</div>
                         <h4>¡A pasear!</h4>
-                        <p>Nosotros pasamos por él y tú recibes actualizaciones en tu celular.</p>
+                        <p>Nosotras pasamos por él y tú recibes actualizaciones en tu celular.</p>
                     </div>
                 </div>
             </div>
@@ -128,14 +129,16 @@
             <div class="container about-container">
                 <div class="about-content">
                     <h2>Sobre Nosotros</h2>
-                    <p class="about-lead">Somos amantes de los animales capacitados en primeros auxilios veterinarios y
-                        psicología canina básica.</p>
-                    <p>Entendemos el lenguaje corporal de tu perro para asegurar un paseo libre de estrés. Nuestra
+                    <p class="about-lead">Somos dos amigas amantes de los animales, Eloísa y Amalia, ¡vamos en 4to
+                        básico!. Cada una tiene mascotas, Elo tiene un perro (Fidel) y una gata (Amada) y Amalia tiene
+                        muchos perros en Curacavi
+                    </p>
+                    <p>Entendemos el lenguaje corporal de tu mascota para asegurar un paseo libre de estrés. Nuestra
                         misión es brindar tranquilidad a los dueños y felicidad a sus mascotas.</p>
                     <div class="trust-badges">
                         <span>🛡️ Seguridad</span>
                         <span>❤️ Pasión</span>
-                        <span>🩺 Capacitados</span>
+                        <span>🩺 Atención</span>
                     </div>
                 </div>
             </div>
@@ -173,7 +176,7 @@
                             <span class="icon">⏰</span>
                             <div>
                                 <h4>Horario de Atención</h4>
-                                <p>Lunes a Viernes: 17:00 - 20:00<br>Sábados: 10:00 - 17:00</p>
+                                <p>Viernes: 16:00 - 20:00<br>Sábados: 10:00 - 17:00</p>
                             </div>
                         </div>
                     </div>
@@ -246,6 +249,23 @@
                 <div class="form-group">
                     <label for="petPhoto">Foto de la Mascota</label>
                     <input type="file" id="petPhoto" name="petPhoto" accept="image/*">
+                </div>
+                <div class="form-group">
+                    <label for="walkSchedule">Horario de Paseo</label>
+                    <select id="walkSchedule" name="walkSchedule" required>
+                        <option value="" disabled selected>Selecciona un horario</option>
+                        <optgroup label="Viernes">
+                            <option value="viernes-16:00-17:00">16:00 a 17:00</option>
+                            <option value="viernes-17:15-18:15">17:15 a 18:15</option>
+                            <option value="viernes-18:30-19:30">18:30 a 19:30</option>
+                        </optgroup>
+                        <optgroup label="Sábado">
+                            <option value="sabado-10:00-11:00">10:00 a 11:00</option>
+                            <option value="sabado-11:15-12:15">11:15 a 12:15</option>
+                            <option value="sabado-15:00-16:00">15:00 a 16:00</option>
+                            <option value="sabado-16:15-17:15">16:15 a 17:15</option>
+                        </optgroup>
+                    </select>
                 </div>
                 <button type="submit" class="submit-btn">Enviar Inscripción</button>
             </form>
