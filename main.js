@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
             period: "/ paseo",
             features: [
                 "60 minutos de aventura",
-                "Grupos pequeños (máx 4 perros)",
+                "Grupos pequeños (máx 2 perros)",
                 "Socialización controlada",
                 "Reporte fotográfico",
                 "Refuerzo de comandos básicos"
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 "Especial para cachorros o senior",
                 "Rutas personalizadas",
                 "Ideal para perros nerviosos",
-                "Reporte detallado de comportamiento",
+                "Reporte detallado de comportamiento en paseo",
                 "Opción 45 min por $15.000"
             ]
         },
